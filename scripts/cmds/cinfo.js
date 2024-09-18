@@ -40,7 +40,7 @@ module.exports = {
     const authorName = global.GoatBot.config.authorName;
     const authorFB = global.GoatBot.config.authorFB;
     const authorInsta = "4s1f_x69";
-    const status = "In a relationship";
+    const status = "Single";
     const timeStart = Date.now();
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/info.json'));
