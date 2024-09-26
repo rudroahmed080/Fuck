@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "Iı 𝙰𝚂𝙸𝙵 Iı";
+const doNotDelete = "Iı 𝐑𝐮𝐝𝐫𝐨 Iı";
 /**
 * @author NTKhang
 * @author: do not delete it
@@ -50,7 +50,7 @@ module.exports = {
       + "\n│ %4"
       + "\n╰─────────────⭓",
     commandNotFound: "Command \"%1\" does not exist",
-    getInfoCommand: "╭── Iı 𝙰𝚂𝙸𝙵 Iı ────⭓"
+    getInfoCommand: "╭── Iı 𝐑𝐮𝐝𝐫𝐨 Iı ────⭓"
       + "\n│ %1"
       + "\n├── INFO"
       + "\n│ Description: %2"

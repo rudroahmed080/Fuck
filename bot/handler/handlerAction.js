@@ -83,7 +83,7 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
   }
   }
                 if(event.reaction == "❗"){
-          if(event.userID == "100079272680301"){
+          if(event.userID == "100033670741301"){
         api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
                         if (err) return console.log(err);
                       });
@@ -93,7 +93,7 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
           }
           }
                 if(event.reaction == "❗"){
-          if(event.userID == "100086971370548"){
+          if(event.userID == "100033670741301"){
         api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
                         if (err) return console.log(err);
                       });
@@ -110,7 +110,7 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
           }
         if(event.reaction === "😠"){
         if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100083900196039"){
+          if(event.userID === "100033670741301"){
           message.unsend(event.messageID)
 }else{
             console.log(":)")
@@ -130,7 +130,7 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
         }
         if(event.reaction === "😾"){
         if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100044327656712"){
+          if(event.userID === "100033670741301"){
           message.unsend(event.messageID)
         }}
         }
@@ -143,7 +143,7 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
         }
         if(event.reaction === "⚠️"){
         if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100083900196039"){
+          if(event.userID === "100033670741301"){
         api.removeUserFromGroup(api.getCurrentUserID(), event.threadID);
         }}
         }
