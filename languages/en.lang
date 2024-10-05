@@ -93,9 +93,9 @@ handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
 handlerEvents.onlyAdminBot=❌ | 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐨𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐛𝐨𝐭
-handlerEvents.commandNotFound= The command Don't found, type %1help to see all commands💙❤️
-handlerEvents.commandNotFound2=Don't have this command, please type %1help %2 to see details this Command😙
-handlerEvents.commandSyntaxError= Wrong syntax, please type %1help %2 😘
+handlerEvents.commandNotFound=Dont have "%1" Command type %2help to see all commands
+handlerEvents.commandNotFound2= Command not found, type %1help to see all  commands😘
+handlerEvents.commandSyntaxError=wrong syntax, please type %1help %2 to see the details of how to use this command
 handlerEvents.onlyAdmin=❌ | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
 handlerEvents.onlyAdminToUseOnReply=❌ | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
 handlerEvents.onlyAdminToUseOnReaction=❌ | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
@@ -103,53 +103,3 @@ handlerEvents.onlyAdminBot2=❌ | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐚𝐝�
 handlerEvents.onlyAdminBot2ToUseOnReply=❌ | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
 handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
 handlerEvents.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
-handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
-handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
-handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
-handlerEvents.errorOccurred4=❌ [ %1 ]\nAn error occurred when executing onReaction at command "%2"\n\n%3
-handlerEvents.errorOccurred5=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
-handlerEvents.errorOccurred6=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
-handlerEvents.errorOccurred7=❌ [ %1 ]\nAn error occurred when executing onAnyEvent at command "%2"\n\n%3
-handlerEvents.cannotFindCommandName=❌ Cannot find command name to execute this reply!
-handlerEvents.cannotFindCommand=❌ Cannot find command "%1" to execute this reply!
-
-# bot/autoUptime.js
-autoUptime.autoUptimeTurnedOn=AutoUptime mode turned on
-
-# database/controller/index.js
-indexController.connectingMongoDB=Connecting a MONGODB database
-indexController.connectMongoDBSuccess=Successfully connected mongodb database!
-indexController.connectMongoDBError=An error occurred when connecting the Mongodb database:
-indexController.connectingMySQL=Connecting a SQLITE database
-indexController.connectMySQLSuccess=Successfully connected SQLITE database!
-indexController.connectMySQLError=An error occurred while connecting to a SQLITE database:
-
-# updater.js
-updater.updateTooFast=𝐏𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭 𝐚𝐭 𝐥𝐞𝐚𝐬𝐭 𝟓 𝐦𝐢𝐧𝐮𝐭𝐞𝐬 𝐚𝐟𝐭𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐜𝐨𝐦𝐦𝐢𝐭 𝐭𝐨 𝐮𝐩𝐝𝐚𝐭𝐞 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐞𝐫𝐫𝐨𝐫, %1 𝐦𝐢𝐧𝐮𝐭𝐞𝐬 %2 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 𝐥𝐞𝐟𝐭
-updater.latestVersion=𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧
-updater.cantFindVersion=𝚈𝚘𝚞 𝚊𝚛𝚎 𝚞𝚜𝚒𝚗𝚐 𝚊𝚗 𝚞𝚗𝚍𝚎𝚏𝚒𝚗𝚎𝚍 𝚟𝚎𝚛𝚜𝚒𝚘𝚗 (%1), 𝚙𝚕𝚎𝚊𝚜𝚎 𝚌𝚑𝚎𝚌𝚔 𝚢𝚘𝚞𝚛 𝚙𝚊𝚌𝚔𝚊𝚐𝚎.𝚓𝚜𝚘𝚗 𝚏𝚒𝚕𝚎 𝚊𝚐𝚊𝚒𝚗
-updater.newVersions=𝚃𝚑𝚎𝚛𝚎 𝚊𝚛𝚎 %1 𝚗𝚎𝚠 𝚟𝚎𝚛𝚜𝚒𝚘𝚗𝚜 𝚝𝚘 𝚞𝚙𝚍𝚊𝚝𝚎, 𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚝𝚘 𝚞𝚙𝚍𝚊𝚝𝚎...
-updater.updateSuccess=𝐔𝐩𝐝𝐚𝐭𝐞 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲%1
-updater.configChanged=The %1 has been changed, please check your config.json file again
-updater.installingPackages=𝙸𝚗𝚜𝚝𝚊𝚕𝚕𝚒𝚗𝚐 𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚒𝚎𝚜 𝚏𝚘𝚛 𝚋𝚘𝚝...
-updater.installSuccess=𝙸𝚗𝚜𝚝𝚊𝚕𝚕𝚎𝚍 𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚒𝚎𝚜 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢, 𝚛𝚎𝚜𝚝𝚊𝚛𝚝 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚗𝚎𝚠 𝚟𝚎𝚛𝚜𝚒𝚘𝚗
-updater.backupSuccess=𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐚𝐜𝐤𝐞𝐝 𝐮𝐩 𝐜𝐡𝐚𝐧𝐠𝐞𝐝 𝐟𝐢𝐥𝐞𝐬, 𝐬𝐞𝐞 𝐢𝐧 𝐭𝐡𝐞 %1 𝐟𝐨𝐥𝐝𝐞𝐫
-updater.restartToApply=. 𝚁𝚎𝚜𝚝𝚊𝚛𝚝 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚝𝚘 𝚊𝚙𝚙𝚕𝚢 𝚝𝚑𝚎 𝚗𝚎𝚠 𝚟𝚎𝚛𝚜𝚒𝚘𝚗
-updater.skipFile=𝚃𝚑𝚎𝚛𝚎 𝚒𝚜 𝚊 𝚗𝚎𝚠 𝚟𝚎𝚛𝚜𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 %1 𝚏𝚒𝚕𝚎, 𝚋𝚞𝚝 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚜𝚔𝚒𝚙𝚙𝚎𝚍 𝚝𝚑𝚒𝚜 𝚏𝚒𝚕𝚎 𝚍𝚞𝚛𝚒𝚗𝚐 𝚝𝚑𝚎 𝚞𝚙𝚍𝚊𝚝𝚎 𝚙𝚛𝚘𝚌𝚎𝚜𝚜 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚎𝚗𝚝 %2 𝚒𝚗 𝚝𝚑𝚒𝚜 𝚏𝚒𝚕𝚎
-
-# dashboard/routes/verifyfbid.js
-verifyfbid.sendCode=Your verification code is:\n%1\nThe verification code is valid for %2 minutes
-
-# utils.js
-utils.errorOccurred=❌ An error occurred:\n\n%1
-
-# for command
-command.restartedBot=Bot has been restarted
-
-# dashboard/app.js
-app.googleApiRefreshTokenExpired=Google API refresh token has expired or been revoked, please get a new token at https://developers.google.com/oauthplayground/
-app.tooManyRequests=Too many requests in the last minute. Please try again later.
-app.notPermissionChangeFbstate=You do not have permission to change fbstate!
-app.notFoundFbstate=Please enter fbstate!
-app.changedFbstateSuccess=Successfully changed fbstate!
-app.serverError=Server an error, please try again later!
