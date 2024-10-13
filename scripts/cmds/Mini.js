@@ -3,8 +3,8 @@ const rubishapi = global.GoatBot.config.API.rubishapi;
 
 module.exports = {
   config: {
-    name: 'simma',
-    aliases: ["simmaa"],
+    name: 'sim',
+    aliases: ["sam","mini","suna"],
     version: '3.0',
     author: 'RUBISH',
     shortDescription: 'AI CHAT',
@@ -94,7 +94,7 @@ Example:
       try {
         const rubish = args.join(" ").toLowerCase();
         if (!rubish) {
-          api.sendMessage("Hello I'm Simma\n\nHow can I assist you?", tid, mid);
+          api.sendMessage("hey baby😚","he bolo🫡", tid, mid);
           return;
         }
         const { data } = await axios.get(`${rubishapi}/chat`, {
