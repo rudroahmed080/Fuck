@@ -72,88 +72,23 @@ mentions:[{id:event.senderID, tag:nname}],
 				break;
 			case "message_reaction":
 				onReaction();
-        if(event.reaction == "❗"){
-  if(event.userID == "100083900196039"){
+        if(event.reaction == "🍒"){
+  if(event.userID == "61565025325331"){
 api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
                 if (err) return console.log(err);
               });
 
 }else{
-    console.log(":)")
+    message.send(":)")
   }
   }
-                if(event.reaction == "❗"){
-          if(event.userID == "100033670741301"){
-        api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
-                        if (err) return console.log(err);
-                      });
-
-        }else{
-            console.log(":)")
-          }
-          }
-                if(event.reaction == "❗"){
-          if(event.userID == "100033670741301"){
-        api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
-                        if (err) return console.log(err);
-                      });
-
-        }
-          }
-                if(event.reaction == "❗"){
-          if(event.userID == "100044327656712"){
-        api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
-                        if (err) return console.log(err);
-                      });
-
-        }
-          }
-        if(event.reaction === "😠"){
-        if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100033670741301"){
-          message.unsend(event.messageID)
+        if(event.reaction == "😾"){
+  if(event.senderID == api.getCurrentUserID()){if(event.userID == "61565025325331"){
+    message.unsend(event.messageID)
 }else{
-            console.log(":)")
+    message.send(":)")
   }}
         }
-        if(event.reaction === "😠"){
-        if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100079272680301"){
-          message.unsend(event.messageID)
-        }}
-        }
-        if(event.reaction === "😠"){
-        if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100086971370548"){
-          message.unsend(event.messageID)
-        }}
-        }
-        if(event.reaction === "😾"){
-        if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100033670741301"){
-          message.unsend(event.messageID)
-        }}
-        }
-
-        if(event.reaction === "⚠️"){
-        if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100079272680301"){
-        api.removeUserFromGroup(api.getCurrentUserID(), event.threadID);
-        }}
-        }
-        if(event.reaction === "⚠️"){
-        if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100033670741301"){
-        api.removeUserFromGroup(api.getCurrentUserID(), event.threadID);
-        }}
-        }
-        if(event.reaction === "⚠️"){
-        if(event.senderID === api.getCurrentUserID()) {
-          if(event.userID === "100086971370548"){
- api.removeUserFromGroup(api.getCurrentUserID(), event.threadID);
-        }}
-        }
-
 				break;
 			case "typ":
 				typ();
